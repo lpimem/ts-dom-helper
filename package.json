@@ -1,0 +1,39 @@
+{
+  "name": "hlc-js-helpers",
+  "version": "1.0.0",
+  "description": "a set of js helper functions ",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpimem/ts-dom-helper.git"
+  },
+  "author": "lpimem <lowatt.pi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpimem/ts-dom-helper/issues"
+  },
+  "homepage": "https://github.com/lpimem/ts-dom-helper#readme",
+  "dependencies": {
+    "logez": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "ts-jest": "^19.0.8",
+    "typescript": "^2.2.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
